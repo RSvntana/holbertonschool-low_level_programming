@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-	printf("with proper grammar, but the outcome is a piece of art, \n");
-	return 'o';
+    printf("A piece of art, \n");
+    return 'o';
 }
-
