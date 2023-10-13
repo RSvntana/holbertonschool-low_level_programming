@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - prints a string using puts
+ * main - prints a string using printf
  *
  * Return: 0 (Success)
  */
 
 int main(void)
 {
-puts("\"with proper grammar, but the outcome ir a piece of art,"");
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
