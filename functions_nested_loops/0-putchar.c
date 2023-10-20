@@ -2,19 +2,22 @@
 #include "main.h"
 
 /**
- * main - entry point
- * Return: always 0 (success)
+ *  main - prints the string "Holberton"
+ *  Return: always 0 (success)
  */
+
 int main(void)
 {
-	char str[] = "_putchar\n";
-	int i = 0;
 
-	while (str[i] != '\0')
+	char *c;
+
+	int i;
+	c = "_putchar";
+
+	for (i = o; i < 8; i++)
 	{
-		write(1, &str[i], 1);
-		i++;
+		_putchar (c[i]);
 	}
+	_putchar('\n');
 	return (0);
 }
-
