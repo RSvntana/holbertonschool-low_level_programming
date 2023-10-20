@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *  main - prints the string "Holberton"
+ *  main - entry point
  *
  *  Return: always 0 (success)
  */
@@ -13,7 +13,7 @@ int main(void)
 
 	c = "_putchar";
 
-	for (i = o; i < 8; i++)
+	for (i = 0; i < 8; i++)
 	{
 		_putchar (c[i]);
 	}
