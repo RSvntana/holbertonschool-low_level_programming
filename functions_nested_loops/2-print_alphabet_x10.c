@@ -1,8 +1,7 @@
-#include <stdio.h>
 #include "main.h"
 /*
- * print_alphabet_x10 - repeat the print_alphabet 10 times
- * Return: none
+ * print_alphabet_x10 - repeats the print_alphabet 10 times.
+ * Return: None.
  */
 void print_alphabet_x10(void)
 {
@@ -18,6 +17,7 @@ void print_alphabet_x10(void)
 		}
 
 		_putchar('\n');
+
 
 	}
 }
