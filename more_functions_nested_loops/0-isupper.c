@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <ctype.h>
 #include "main.h"
+
 /**
  * _isupper - if statement to check if the parameter is uppercase
  * @c: parameter to check
@@ -8,12 +7,8 @@
  */
 int _isupper(int c)
 {
-	if (isupper(c))
-	{
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
