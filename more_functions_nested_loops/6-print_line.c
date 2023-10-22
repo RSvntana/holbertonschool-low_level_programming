@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * print_line - Draws a stright line according to parameter
  * @n: the number or lines to draw
