@@ -5,7 +5,7 @@
  *
  * @s: int pointer type
  *
- * Return: always 0
+ * Return: lenght
  */
 
 int _strlen(char *s)
@@ -17,5 +17,5 @@ int _strlen(char *s)
 		length++;
 		s++;
 	}
-	return (0);
+	return (lenght);
 }
