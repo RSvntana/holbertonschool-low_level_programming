@@ -2,7 +2,7 @@
 #include "2-strlen.c"
 
 /**
- * _puts2 - print every other character of a string
+ * puts2 - print every other character of a string
  *
  * @str: string to put twice
  */
