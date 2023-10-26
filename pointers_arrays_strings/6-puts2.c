@@ -3,6 +3,7 @@
 
 /**
  * _puts2 - print every other character of a string
+ *
  * @str: string to put twice
  */
 
