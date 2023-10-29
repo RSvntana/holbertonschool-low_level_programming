@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * _strchr - locates string
- * @s: receives pointer
- * @c: receives char
- * Return: character
+ *_strchr - locates string
+ *@s: receives pointer
+ *@c: receives char
+ *Return: character
  */
 
 char *_strchr(char *s, char c)
@@ -26,5 +26,6 @@ char *_strchr(char *s, char c)
 			return (s + i);
 		}
 	}
+
 	return (0);
 }
