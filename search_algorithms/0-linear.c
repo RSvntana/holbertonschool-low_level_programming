@@ -29,4 +29,3 @@ int linear_search_new(int *array, size_t size, int value) {
 	printf("%d is not present in the array\n", value);
 	return (-1);
 }
-
