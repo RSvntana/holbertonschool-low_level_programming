@@ -8,18 +8,19 @@
  *
  * Return: Index of the value or -1 if not found or if the array is NULL.
  */
-int linear_search(int *arr, size_t size, int val)
+
+int linear_search(int *array, size_t size, int value)
 {
 	size_t i;
 
-	if (arr == NULL)
+	if (array == NULL)
 		return (-1);
 
 	for (i = 0; i < size; i++)
 	{
-		printf("Value checked arr[%lu] = [%d]\n", i, arr[i]);
+		printf("Value checked array[%lu] = [%d]\n", i, array[i]);
 
-		if (arr[i] == val)
+		if (array[i] == value)
 			return (i);
 	}
 
