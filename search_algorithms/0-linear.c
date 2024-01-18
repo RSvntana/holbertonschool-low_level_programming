@@ -1,4 +1,4 @@
-#include "main.h"
+#include "search_algos.h"
 
 /**
  * linear_search_new - Searches for a value in an array using linear search.
