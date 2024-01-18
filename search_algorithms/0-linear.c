@@ -18,13 +18,14 @@ int linear_search(int *array, size_t size, int value) {
 	}
 
 	for (i = 0; i < size; i++) {
-		printf("Value compared: %d\n", array[i]);
+		printf("Value checked array[%lu] = [%d]\n", i, array[i]);
 
 		if (array[i] == value) {
+			printf("Value found at index %lu\n", i);
 			return (i);
 		}
 	}
 
+	printf("Value not present in array\n");
 	return (-1);
 }
-
