@@ -10,29 +10,28 @@
  * Return: The index where the value is located,
  *         or -1 if the value is not present in the array or if the array is NULL.
  */
-
 int binary_search_recursive(int *array, size_t start, size_t end, int value)
 {
-    size_t mid, index;
+	size_t mid, index;
 
-    while (start <= end)
-    {
-        printf("Searching in array:");
-        for (index = start; index < end; index++)
-            printf(" %d,", array[index]);
-        printf(" %d\n", array[index]);
+	while (start <= end)
+	{
+		printf("Searching in array:");
+		for (index = start; index < end; index++)
+			printf(" %d,", array[index]);
+		printf(" %d\n", array[index]);
 
-        mid = (start + end) / 2;
+		mid = (start + end) / 2;
 
-        if (array[mid] == value)
-            return (mid);
-        if (array[mid] < value)
-            start = mid + 1;
-        else
-            end = mid - 1;
-    }
+		if (array[mid] == value)
+			return (mid); /* Value found, return the index */
+		if (array[mid] < value)
+			start = mid + 1; /* Search in the right half */
+		else
+			end = mid - 1; /* Search in the left half */
+	}
 
-    return (-1);
+	return (-1); /* Value not found */
 }
 
 /**
@@ -42,13 +41,13 @@ int binary_search_recursive(int *array, size_t start, size_t end, int value)
  * @value: Value to search for.
  *
  * Return: The index where the value is located,
- * or -1 if the value is not present in the array or if the array is NULL.
+ *         or -1 if the value is not present in the array or if the array is NULL.
  */
-
 int binary_search(int *array, size_t size, int value)
 {
-    if (array == NULL)
-        return (-1);
+	if (array == NULL)
+		return (-1);
 
-    return (binary_search_recursive(array, 0, size - 1, value));
+	return (binary_search_recursive(array, 0, size - 1, value));
 }
+
