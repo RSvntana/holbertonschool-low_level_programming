@@ -2,9 +2,9 @@
 
 /**
  * linear_search - Searches for a value in an array using linear search.
- * @arr: Pointer to the first element of the array.
+ * @array: Pointer to the first element of the array.
  * @size: Number of elements in the array.
- * @val: Value to search for.
+ * @value: Value to search for.
  *
  * Return: Index of the value or -1 if not found or if the array is NULL.
  */
