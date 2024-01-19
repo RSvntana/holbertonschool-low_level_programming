@@ -1,14 +1,14 @@
 #include "search_algos.h"
 
 /**
- * binary_search_recursive - Searches for a value in a sorted array using binary search.
+ * binary_search_recursive - Searches for a value in a sorted array.
  * @array: Pointer to the first element of the array to search in.
  * @start: Start index of the subarray.
  * @end: End index of the subarray.
  * @value: Value to search for.
  *
- * Return: The index where the value is located,
- *         or -1 if the value is not present in the array or if the array is NULL.
+ * Return: The index where the value is located, or -1 if the value is not
+ *         present in the array or if the array is NULL.
  */
 int binary_search_recursive(int *array, size_t start, size_t end, int value)
 {
@@ -40,8 +40,8 @@ int binary_search_recursive(int *array, size_t start, size_t end, int value)
  * @size: Number of elements in the array.
  * @value: Value to search for.
  *
- * Return: The index where the value is located,
- *         or -1 if the value is not present in the array or if the array is NULL.
+ * Return: The index where the value is located, or -1 if the value is not
+ *         present in the array or if the array is NULL.
  */
 int binary_search(int *array, size_t size, int value)
 {
